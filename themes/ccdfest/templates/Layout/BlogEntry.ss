@@ -14,7 +14,7 @@
 		<% end_if %>
        
 		<% if IsWYSIWYGEnabled %>
-			$Content
+			$Content	
 		<% else %>
 			$Content
 		<% end_if %>
