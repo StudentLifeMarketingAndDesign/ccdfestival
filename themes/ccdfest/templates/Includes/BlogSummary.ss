@@ -9,6 +9,6 @@
 			<% end_loop %>
 		</p>
 	<% end_if %>
-	$ParagraphSummary
+	$Content
 	<p class="blogVitals"><a href="$Link" class="readmore" title="Read Full Post">Read the full post</a></p>
 </div>

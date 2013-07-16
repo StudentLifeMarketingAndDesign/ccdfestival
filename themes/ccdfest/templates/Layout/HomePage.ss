@@ -34,7 +34,7 @@ $Content
 
 <% loop BlogEntries %>
 <h3><a href="$Link">$Title</a></h3>
-<b>$Date.Format(F d&#44; Y)</b><br />
+<b>$Date.Format("F j, Y")</b><br />
 $Content
 
 

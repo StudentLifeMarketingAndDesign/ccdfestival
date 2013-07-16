@@ -25,5 +25,5 @@ i18n::set_locale('en_US');
 Director::set_environment_type("dev");
 // enable nested URLs for this site (e.g. page/sub-page/)
 SiteTree::enable_nested_urls();
-DataObject::add_extension('SiteConfig', 'CustomSiteConfig');
+Object::add_extension('SiteConfig', 'CustomSiteConfig');
 BlogEntry::allow_wysiwyg_editing();
