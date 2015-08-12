@@ -27,3 +27,7 @@ Director::set_environment_type("dev");
 SiteTree::enable_nested_urls();
 Object::add_extension('SiteConfig', 'CustomSiteConfig');
 BlogEntry::allow_wysiwyg_editing();
+
+if(Director::isLive()) {
+	Director::forceSSL(array('/^Security/','/^admin/'));
+}
